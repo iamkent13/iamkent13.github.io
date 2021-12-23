@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+
+    <!-- css punya sendiri -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Restoran Enak</title>
+  </head>
+
+  <body id="home" class="scrollspy">
+
+    <!-- navbar -->
+    <div class="navbar-fixed">
+      <nav class="amber darken-2">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#home" class="brand-logo">Restoran Enak</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <!-- class scrollspy untuk mencari element apa ada di posisi berapa -->
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#clients">Clients</a></li>
+              <li><a href="#services">Service</a></li>
+              <li><a href="#menus">Top Menus</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+    <!-- sidenav (untuk munculin sidebar kalau layar diperkecil, responsif web) -->
+    <ul class="sidenav" id="mobile-nav">
+      <li><a href="">About Us</a></li>
+      <li><a href="">Clients</a></li>
+      <li><a href="">Service</a></li>
+      <li><a href="">Top Menus</a></li>
+      <li><a href="">Contact Us</a></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- slider (slide show) -->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/slider/1.png">
+          <div class="caption left-align">
+            <h3>Ayo Makan Sampai Perut Meledak!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/slider/2.png">
+          <div class="caption center-align">
+            <h3>Makan Terus Sampai Lambung Pecah!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/slider/3.png">
+          <div class="caption right-align">
+            <h3>Hidup Untuk Makan!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/slider/4.png">
+          <div class="caption left-align">
+            <h3>Makan Untuk Hidup!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/slider/5.png">
+          <div class="caption right-align">
+            <h3>Mabok Heulatuh!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- About Us -->
+    <!-- class scrollspy untuk mencari element apa ada di posisi berapa -->
+    <section id="about" class="about scrollspy">
+      <div class="container">
+        <div class="row">
+          <!-- class light supaya tulisan lebih tipis -->
+          <!-- pada grey dan darken-3, tambahkan keyword text supaya yang dipengaruhi adalah warna text bukan warna background -->
+          <!-- trus karena h3 kolomnya cuman 1, yaitu full 12 grip maka tidak perlu buat row khusus sendiri, bisa juga seperti pada container clients atau section menus -->
+          <h3 class="center light grey-text text-darken-3">About Us</h3>
+          <div class="col m6 light">
+            <h5>We Are Professionals</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col m6 light">
+            <p>APPETIZER</p>
+            <div class="progress">
+              <div class="determinate amber" style="width: 85%"></div>
+            </div>
+            <p>MAIN COURSE</p>
+            <div class="progress">
+              <div class="determinate amber" style="width: 90%"></div>
+            </div>
+            <p>DESSERT</p>
+            <div class="progress">
+              <div class="determinate amber" style="width: 98%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <!-- Clients -->
+    <div id="clients" class="parallax-container scrollspy">
+      <div class="parallax"><img src="img/slider/6.png"></div>
+
+      <div class="container clients">
+        <!-- trus karena h3 kolomnya cuman 1, yaitu full 12 grip maka tidak perlu buat row khusus sendiri -->
+        <h3 class="center light white-text">Our Clients</h3>
+        <div class="row">
+          <!-- buat supaya kalau medium dia ambil 4 kolom, sedangkan kalau small ambil 12 kolom -->
+          <div class="col m4 s12 center">
+            <img src="img/clients/traveloka.png">
+          </div>
+          <div class="col m4 s12 center">
+            <img src="img/clients/tripadvisor.png">
+          </div>
+          <div class="col m4 s12 center">
+            <img src="img/clients/agoda.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- services -->
+    <section id="services" class="services yellow lighten-1 scrollspy">
+      <div class="container">
+        <div class="row">
+          <h3 class="light center grey-text text-darken-3">Our Services</h3>
+          <div class="col m4 s12">
+            <div class="card-panel center">
+              <i class="material-icons large">local_dining</i>
+              <h5>Appetizer</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna.</p>
+            </div>
+          </div>
+          <div class="col m4 s12">
+            <div class="card-panel center">
+              <i class="material-icons large">restaurant</i>
+              <h5>Main Course</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna.</p>
+            </div>
+          </div>
+          <div class="col m4 s12">
+            <div class="card-panel center">
+              <i class="material-icons large">opacity</i>
+              <h5>Dessert</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- top menus/ portfolio -->
+    <section id="menus" class="menus scrollspy">
+      <div class="container">
+        <h3 class="light center grey-text text-darken-3">Top Menus</h3>
+        <div class="row">
+          <div class="col m3 s12">
+            <!-- class="responsive-img" supaya grid gambarnya bisa jadi kecil dan responsif -->
+            <!-- class materialboxed supaya kalau di klik bisa jadi light box -->
+            <img src="img/menus/1.png" class="responsive-img materialboxed">
+          </div>
+          <div class="col m3 s12">
+            <img src="img/menus/2.png" class="responsive-img materialboxed">
+          </div>
+          <div class="col m3 s12">
+            <img src="img/menus/3.png" class="responsive-img materialboxed">
+          </div>
+          <div class="col m3 s12">
+            <img src="img/menus/4.png" class="responsive-img materialboxed">
+          </div>
+        </div>
+         <div class="row">
+          <div class="col m3 s12">
+            <img src="img/menus/5.png" class="responsive-img materialboxed">
+          </div>
+          <div class="col m3 s12">
+            <img src="img/menus/6.png" class="responsive-img materialboxed">
+          </div>
+          <div class="col m3 s12">
+            <img src="img/menus/7.png" class="responsive-img materialboxed">
+          </div>
+          <div class="col m3 s12">
+            <img src="img/menus/8.png" class="responsive-img materialboxed">
+          </div>
+        </div>
+      </div>      
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- contact us -->
+    <section id="contact" class="contact yellow lighten-3 scrollspy">
+      <div class="container">
+        <h3 class="light center grey-text text-darken-3">Contact Us</h3>
+        <div class="row">
+          <div class="col m5 s12">
+            <div class="card-panel amber darken-2 center white-text">
+              <i class="material-icons medium">mail</i>
+              <h5>Contact</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud nisi ut aliquip ex ea commodo
+              consequat.</p>
+            </div>
+            <ul class="collection with-header">
+              <li class="collection-header"><h4>Our Restaurant</h4></li>
+              <li class="collection-item">Restoran Enak Bintang Lima</li>
+              <li class="collection-item">Jl. Lorem Ipsum No. 36B, Medan</li>
+              <li class="collection-item">North Sumatera, Indonesia</li>
+            </ul>
+          </div>
+          <div class="col m7 s12">
+            <form>
+              <div class="card-panel">
+                <h5>Please Fill Out this Form</h5>
+                <div class="input-field">
+                  <input type="text" name="name" id="name" required class="validate">
+                  <label for="name">Name</label>
+                </div>
+                <div class="input-field">
+                  <!-- class validate supaya ubah warnanya merah kalau error -->
+                  <input type="email" name="email" id="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+                <div class="input-field">
+                  <input type="text" name="phone" id="phone">
+                  <label for="phone">Phone Number</label>
+                </div>
+                <div class="input-field">
+                  <textarea name="message" id="message" class="materialize-textarea"></textarea>
+                  <label for="message">Message</label>
+                </div>
+                <button type="submit" class="btn amber darken-2">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+    <footer class="amber darken-2 white-text center">
+      <!-- class flow-text untuk memperbesar ukuran text namun tetap bersifat responsif web -->
+      <p class="flow-text">Restoran Enak Bintang Lima. Copyright &copy; 2021.</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <!-- script buatan sendiri -->
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
