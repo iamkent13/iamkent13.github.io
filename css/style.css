@@ -1,36 +1,41 @@
 .slider h3,
 .slider h5,
-.clients h3{
-	text-shadow: 2px 2px 3px rgba(0,0,0,0.7);
+.clients h3 {
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
 }
 
-.parallax-container{
+.parallax-container {
 	height: 250px;
 }
 
-.parallax img{
+.parallax img {
 	filter: grayscale(0.7);
 	opacity: 0.6 !important;
 }
 
-.clients img{
+.clients img {
 	max-width: 140px;
 	/*pakai filter: drop-shadow() karena tidak bisa pakai text-shadow, sedangkan box-shadow ga cocok untuk gambar yang transparan*/
-	filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.7));
+	filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.7));
 }
 
 /*kita kasih padding atas bawah 20px, kiri kanan 0 supaya tidak ada jeda (ompong) pada section services*/
-section, footer{
+section,
+footer {
 	padding: 20px 0;
 }
 
 /*supaya kalau layar dikecilin top menusnya lebih rapi*/
-.materialboxed{
+.materialboxed {
 	margin-bottom: 10px;
 }
 
 /*supaya kalau layar dikecilin top menusnya lebih rapi*/
-.menus .row{
+.menus .row {
 	margin-top: 0;
 	margin-bottom: 0;
+}
+
+.nav-wrapper .brand-logo {
+	font-size: 24px;
 }
